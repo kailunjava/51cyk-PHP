@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <!-- 引用头部css和js-->
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <script type="text/javascript" src="js/header.js"></script>
+    <!-- 引用主界面css和js-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/js.js"></script>
+</head>
+
+<body>
+    <!-- 头部开始-->
+    <div class="header">
+        <!-- 背景音乐  autoplay="autoplay" -->
+        <audio src="music/1.mp3" id="music" loop="loop"></audio>
+        <div class="header_logo_png" onclick="music()"></div>
+        <div class="header_logo" onclick="music()"></div>
+        <!-- 导航栏开始-->
+        <ul>
+            <li id="nav_1" style="background-color: #31C27C;"><a href="index.html" id="a_1" onclick="nav_bgcolor(1)" style="color: #FFFFFF;">首页</a></li>
+            <li id="nav_2"><a href="#" id="a_2" onclick="nav_bgcolor(2)">美食文化</a></li>
+            <li id="nav_3"><a href="#" id="a_3" onclick="nav_bgcolor(3)">美食分享</a></li>
+            <li id="nav_4"><a href="#" id="a_4" onclick="nav_bgcolor(4)">吃货集中营</a></li>
+            <li id="nav_5"><a href="contact.html" id="a_5" onclick="nav_bgcolor(5)">联系我们</a></li>
+        </ul>
+        <!-- 导航栏结束-->
+        <!--- 搜索开始-->
+        <div class="header_search">
+            <form action="" method="get">
+                <!--搜索框-->
+                <input name="" type="text" id="search_text" />
+                <!--搜索按钮-->
+                <input name="" type="button" id="search_button" value="吃一口" onmousedown="search_color()" />
+            </form>
+        </div>
+        <!--- 搜索结束-->
+        <!-- 登录注册-->
+        <div class="login">
+            <a href="" id="login_button">登录</a>
+            <a href="" id="register_button" onmousemove="register_color(1)" onmouseout="register_color(2)">注册</a>
+        </div>
+    </div>
+    <!-- 头部结束-->
+    <!-- 主页面开始-->
+    <div class="content">
+        <!--首页轮播图开始-->
+        <div class="img_tab" id="img_tab">
+            <!--透明分类信息-->
+            <div class="img_category"></div>
+            <ul>
+                <li id="li_1" onmousemove="li_color_move(1)" onmouseout="li_color_out()">&nbsp;川菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                <li id="li_2" onmousemove="li_color_move(2)" onmouseout="li_color_out()">&nbsp;鲁菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                <li id="li_3" onmousemove="li_color_move(3)" onmouseout="li_color_out()">&nbsp;粤菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                <li id="li_4" onmousemove="li_color_move(4)" onmouseout="li_color_out()">&nbsp;苏菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                <li id="li_5" onmousemove="li_color_move(5)" onmouseout="li_color_out()">&nbsp;浙菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                <li id="li_6" onmousemove="li_color_move(6)" onmouseout="li_color_out()">&nbsp;闽菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                <li id="li_7" onmousemove="li_color_move(7)" onmouseout="li_color_out()">&nbsp;湘菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                <li id="li_8" onmousemove="li_color_move(8)" onmouseout="li_color_out()">&nbsp;徽菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                <li id="li_9" onmousemove="li_color_move(9)" onmouseout="li_color_out()">&nbsp;东北菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                <li id="li_10" onmousemove="li_color_move(10)" onmouseout="li_color_out()">&nbsp;豫菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+            </ul>
+        </div>
+        <!--首页轮播图结束-->
+        <!--美食分类-->
+        <div class="main_tab">
+            <ul>
+                <li style="background-color: #5F5750;"><a href="">热菜</a></li>
+                <li style="background-color: #41B9AF;"><a href="">凉菜</a></li>
+                <li style="background-color: #FE6F6B;"><a href="">糕点</a></li>
+                <li style="background-color: #FFAB2D;"><a href="">主食</a></li>
+            </ul>
+        </div>
+        <!--各菜系代表菜-->
+        <div class="content_caixi">
+            <div class="content_caixi_title">川菜代表菜</div>
+            <div class="content_caixi_text">
+                <ul>
+                    <li>
+                        <div class="img_transform"><img src="img/chuan_1.jpg"></div><a href="">水煮牛肉</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/chuan_2.jpg"></div><a href="">酸菜鱼</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/chuan_3.jpg"></div><a href="">辣子鸡丁</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/chuan_4.jpg"></div><a href="">四川泡菜</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/chuan_5.jpg"></div><a href="">水煮肉</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content_caixi">
+            <div class="content_caixi_title">鲁菜代表菜</div>
+            <div class="content_caixi_text">
+                <ul>
+                    <li>
+                        <div class="img_transform"><img src="img/lu_1.jpg"></div><a href="">豆角小炒肉</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/lu_2.jpg"></div><a href="">蒜泥拌白肉</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/lu_3.jpg"></div><a href="">风味五香香肠</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/lu_4.jpg"></div><a href="">菠菜炒鸡蛋</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/lu_5.jpg"></div><a href="">肉丸子</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content_caixi">
+            <div class="content_caixi_title">豫菜代表菜</div>
+            <div class="content_caixi_text">
+                <ul>
+                    <li>
+                        <div class="img_transform"><img src="img/yu_1.jpg"></div><a href="">蜜汁糯米藕</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/yu_2.jpg"></div><a href="">凉拌皮冻</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/yu_3.jpg"></div><a href="">河南烩面</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/yu_4.jpg"></div><a href="">新密卷煎</a></li>
+                    <li>
+                        <div class="img_transform"><img src="img/yu_5.jpg"></div><a href="">胡辣汤</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 主页面结束-->
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <!-- 引用头部css和js-->
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <script type="text/javascript" src="js/header.js"></script>
+    <!-- 引用主界面css和js-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/js.js"></script>
+</head>
+
+<body>
+    <!-- 头部开始-->
+    <div class="header">
+        <!-- 背景音乐  autoplay="autoplay" -->
+        <audio src="music/1.mp3" id="music" loop="loop"></audio>
+        <div class="header_logo_png" onclick="music()"></div>
+        <div class="header_logo" onclick="music()"></div>
+        <!-- 导航栏开始-->
+        <ul>
+            <li id="nav_1"><a href="index.html" id="a_1" onclick="nav_bgcolor(1)">首页</a></li>
+            <li id="nav_2"><a href="#" id="a_2" onclick="nav_bgcolor(2)">美食文化</a></li>
+            <li id="nav_3"><a href="#" id="a_3" onclick="nav_bgcolor(3)">美食分享</a></li>
+            <li id="nav_4"><a href="#" id="a_4" onclick="nav_bgcolor(4)">吃货集中营</a></li>
+            <li id="nav_5" style="background-color: #31C27C;"><a href="contact.html" id="a_5" onclick="nav_bgcolor(5)" style="color: #FFFFFF;">联系我们</a></li>
+        </ul>
+        <!-- 导航栏结束-->
+        <!--- 搜索开始-->
+        <div class="header_search">
+            <form action="" method="get">
+                <!--搜索框-->
+                <input name="" type="text" id="search_text" />
+                <!--搜索按钮-->
+                <input name="" type="button" id="search_button" value="吃一口" onmousedown="search_color()" />
+            </form>
+        </div>
+        <!--- 搜索结束-->
+        <!-- 登录注册-->
+        <div class="login">
+            <a href="" id="login_button">登录</a>
+            <a href="" id="register_button" onmousemove="register_color(1)" onmouseout="register_color(2)">注册</a>
+        </div>
+    </div>
+    <!-- 头部结束-->
+    <!-- 联系我们开始-->
+    <div class="contact">
+        fffffffffffffffff
+    </div>
+    <!-- 联系我们结束-->
+</body>
+
+</html>
