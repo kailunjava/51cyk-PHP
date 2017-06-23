@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /*禁止div中文字被选中*/
+    -moz-user-select: none;
+    /*火狐*/
+    -webkit-user-select: none;
+    /*webkit浏览器 */
+    -ms-user-select: none;
+    /*IE10*/
+    -khtml-user-select: none;
+    /*早期浏览器*/
+    user-select: none;
+}
+
+.share {
+    /*  background-color: #CFD3D5; */
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+
+.share hr {
+    border: 0;
+    height: 2px;
+    background-color: #98A0A5;
+}
+
+.share .title {
+    font-family: simhei;
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.share .top {
+    height: 248px;
+    width: 1104px;
+    margin: 0 auto;
+}
+
+.share .top .top_left {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 90px;
+    left: -30px;
+    color: #FFFFFF;
+    font-family: simhei;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.share .top .top_right {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 30px;
+    left: 1074px;
+    color: #FFFFFF;
+    font-family: simhei;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.share .top .top_1 {
+    background: url(../img/share_01.jpg) no-repeat;
+    position: relative;
+    top: -120px;
+    z-index: -1;
+}
+
+.share .top .top_2 {
+    position: relative;
+    top: -371px;
+    left: 368px;
+    z-index: -1;
+}
+
+.share .top .top_3 {
+    position: relative;
+    top: -622px;
+    left: 736px;
+    z-index: -1;
+}
+
+.share .bottom {
+    font-family: simhei;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* .share .bottom {
+    height: 50px;
+}
+
+.share .bottom .center{
+    width: 1104px;
+    height: 50px;
+    margin: 0 auto;
+    
+}
+.share .bottom .center .png_1{
+	height: 30px;
+	width: 3px;
+	background-color:#CFD3D5;
+	position: relative;
+	top:-1px;
+}
+.share .bottom .center .png_2{
+	height: 30px;
+	width: 3px;
+	background-color:#CFD3D5;
+	position: relative;
+	top:-31px;
+	left:367px;
+}
+.share .bottom .center .png_3{
+	height: 30px;
+	width: 3px;
+	background-color:#CFD3D5;
+	position: relative;
+	top:-61px;
+	left:735px;
+}
+.share .bottom .center .png_4{
+	height: 30px;
+	width: 3px;
+	background-color:#CFD3D5;
+	position: relative;
+	top:-91px;
+	left:1102px;
+}
+.share .bottom .center .center_1,.center_2 ,.center_3{
+	height: 100px;
+	width: 368px;
+	position: relative;
+	background-color: #00FF00;
+	top:-120px;
+	font-family: simhei;
+	color:#000000;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 20px;
+}
+.share .bottom .center .center_2{
+	position: relative;
+	top:-235px;
+	left:368px;
+}
+.share .bottom .center .center_3{
+	position: relative;
+	top:-350px;
+	left:736px;
+} */

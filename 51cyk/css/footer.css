@@ -1,0 +1,142 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+}
+.footer{
+	min-width: 1200px;
+	background-color: #333333;
+	height: 350px;
+	color:#7F7F7F;
+    font-family: simhei;
+    position: relative;
+    
+}
+ .left{
+   width:400px;
+   height: 200px;
+   position: relative;
+   top:2480px;
+    left:88px;
+    left: 88px;
+    margin-top:-50px;
+    top: 50px;
+} 
+ .footer_left{
+   width:400px;
+   height: 200px;
+   position: relative;
+   top:2480px;
+    left:88px;
+    left: 88px;
+    margin-top:-50px;
+    top: 50px;
+} 
+.footer_left li{
+  list-style: none;
+  position: relative;
+  left: 100px;
+  top:20px;
+  margin-top:15px;
+  font-size: 15px;
+}
+.mid{
+	width:400px;
+   height: 200px;
+    position: relative;
+/* top:2480px;
+left:488px; */
+left: 488px;
+margin-top:-200px;
+top: 50px;
+}
+.footer_mid{
+	width:400px;
+   height: 200px;
+    position: relative;
+/* top:2480px;
+left:488px; */
+left: 488px;
+margin-top:-200px;
+top: 50px;
+}
+.footer_mid a li,.footer_right a li,.footer_left a li{
+  color:#7F7F7F;
+}
+.footer_mid a li:hover,.footer_right a li:hover,.footer_left a li:hover{
+  color:#31C27C;
+}
+.footer_mid li{
+  list-style: none;
+  position: relative;
+  left: 100px;
+  top:20px;
+  margin-top:15px;
+  font-size: 15px;
+}
+.right{
+	width:400px;
+   height: 200px;
+   position: relative;
+/* top:2480px;
+left:888px; */
+left: 888px;
+margin-top:-200px;
+top: 50px;
+}
+.footer_right{
+	width:400px;
+   height: 200px;
+   position: relative;
+/* top:2480px;
+left:888px; */
+left: 888px;
+margin-top:-200px;
+top: 50px;
+}
+.footer_right li{
+  list-style: none;
+  position: relative;
+  left: 100px;
+  top:20px;
+  margin-top:15px;
+  font-size: 15px;
+}
+.under{
+	color:#7F7F7F;
+	font-size:14px;
+	height: 80px;
+	font-family: simhei;
+	 position: relative;
+	    /* top:2680px;
+	    left:462px;  */
+	    left:462px;
+	   margin-top:50px;
+    text-align: center;
+
+}
+.under li{
+	
+	list-style: none;
+	float: left;
+	padding: 5px;
+}
+.under a li{
+  color:#7F7F7F;
+  list-style: none;
+  float: left;
+  padding: 5px;
+}
+.under a li:hover{
+   color:#31C27C;
+}
+
+.under .foot{
+    position: relative;
+    left:-665px; 
+    top: 30px;
+}
+.under .foot2{
+    position: relative;
+    left:-665px; 
+    top: 40px;
+}

@@ -1,0 +1,147 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.register_div {
+    width: 660px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 352px;
+    
+}
+.register_div_left {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 57px;
+}
+.register_name{
+   color:#FFFFFF;
+   font-family: simhei;
+   font-size: 20px;
+   width: 150px;
+   height: 50px;
+   text-align: center;
+    margin-top: 60px;
+    cursor:pointer;
+}
+
+.register_mail{
+color:#FFFFFF;
+   font-family: simhei;
+   font-size: 20px;
+   position: relative;
+   padding-right:0px;
+   width: 150px;
+   height: 50px;
+   top:-50px;
+   left: 150px;  
+   text-align: center;
+   cursor:pointer;
+}
+#name_hr{
+   position: relative; 
+    top:-70px;
+    width: 150px;
+    border:1px solid #FFFFFF; 
+}
+#mail_hr{
+   position: relative; 
+    top:-72px;
+    left:150px;
+    width: 150px;
+    border:1px solid #FFFFFF; 
+}
+.register_div_left form{
+    margin-top: -60px;
+}
+
+.register_div_left td input {
+    width: 290px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid #FFFFFF;
+    font-size: 18px;
+    padding-left: 15px;
+    border-radius: 5px;
+    /*  background-color:   transparent; */
+}
+
+.register_div_left #get {
+    background-color: #31C27C;
+    border: none;
+    width: 119px;
+    color: #FFFFFF;
+    padding-left: 3px;
+     cursor:pointer;
+}
+
+.register_div_left #register {
+    width: 307px;
+    background-color: #31C27C;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+   font-family: simhei; 
+   cursor:pointer;
+}
+
+.register_div_left td a {
+    height: 55px;
+    float: right;
+    line-height: 55px;
+    color: #31C27C;
+    font-family: simhei;
+}
+
+.register_div_left td a:hover {
+    text-decoration: underline;
+}
+
+.register_div_left .agree {
+    height: 55px;
+    float: right;
+    line-height: 55px;
+    color: #FFFFFF;
+    font-family: simhei;
+}
+
+.register_div_left .agree input {
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 2px;
+    background-color: #FFFFFF;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    padding-left: 0px;
+    margin-right: 5px;
+}
+
+.register_div_left .agree input:checked {
+    background-color: #31C27C;
+    border: none;
+}
+
+.register_div_left .agree input:focus {
+    border-radius: 0px;
+    outline: none;
+    border: none;
+}
+
+
+/*修改输入框中默认提示的字体的样式*/
+
+::-webkit-input-placeholder {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.register_div_left input:focus {
+    outline: none;
+    border: 2px solid #31C27C;
+    border-radius: 5px;
+}

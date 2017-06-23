@@ -1,0 +1,346 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body hr{
+	border: 1px solid #31C27C;
+
+}
+.talk_all{
+	background-color: rgba(49,194,124,0.7);
+	padding-bottom: 80px;
+}
+.talk_details{
+	width: 1000px;
+	/* height: 1000px; */
+	margin: 0 auto;
+	/* border: 2px solid #FE6F6B; */
+	padding-top: 0px;
+	/* margin-top:45px;
+	margin-bottom:200px; */
+
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+.talk_all .href{
+    width: 1000px;
+	height: 55px;
+	margin:0 auto;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+	color:#FFFFFF;
+}
+.talk_all .href a{
+	color: #FFFFFF;
+}
+.talk_all .href a:hover{
+	color: #000000;
+}
+.talk_details .top,.talk_details .bottom{
+	height: 80px;
+	background-color: #FFFFFF;
+	/* border: 1px solid #31C27C; */
+	/* background-color: #000000; */
+}
+.top .left_1,.left_2,.bottom .left_1,.left_2{
+	width: 100px;
+	height: 38px;
+	background-color: #F4F3F3;
+	border: 1px solid #9A9595;
+	text-align: center;
+	line-height: 38px;
+	position: relative;
+	top:19px;
+	left:19px;
+}
+.top .left_2,.bottom .left_2{
+	background-color: #31C27C;
+	border: 1px solid #62A65C;
+	position: relative;
+	top:-21px;
+	left:138px;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+.top .left_1 a,.bottom .left_1 a{
+display:block;/*设置为行内块*/
+width:100px;/*设置a标签宽度为100px*/
+height: 38px;
+color: #807E7E;
+}
+
+.top .left_1 a:hover,.bottom .left_1 a:hover{
+   background-color: #31C27C;
+   color: #FFFFFF;
+}
+
+.top .right,.bottom .right{
+	width: 560px;
+    height: 80px;  
+    position: relative;
+    top:145px; 
+    left: 630px;
+}
+.top .right li,.bottom .right li{
+	list-style: none;
+    width: 50px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    background-color: #F4F3F3;
+	border: 1px solid #9A9595;
+}
+.top .right li a,.bottom .right li a{
+	display:block;/*设置为行内块*/
+	width:50px;/*设置a标签宽度为100px*/
+	height: 30px;
+    color: #807E7E;
+}
+.top .right li a:hover,.bottom .right li a:hover{
+	 background-color: #31C27C;
+     color: #FFFFFF;
+}
+.center{
+	background-color: #F6F5F4;
+    height: 448px; 
+	/* height: 628px; */
+}
+.center .top{
+	height: 50px;
+	line-height: 50px;
+}
+.center .top .top_1{
+    position: relative;
+    left:30px;
+    font-size: 20px;
+}
+/*left220*/
+.center .top .top_2{
+    position: relative;
+    top:-50px;
+    left:230px;
+     font-size: 15px;
+     color: #757575;
+}
+.center .top .top_3{
+    position: relative;
+    top:-100px;
+    left:440px;
+    font-size: 15px;
+    color: #757575;
+}
+.center .top .top_4{
+    position: relative;
+    top:-150px;
+    left:950px;
+    font-size: 15px;
+    color: #757575;
+}
+.center .center .left .touxiang{
+   width: 160px;
+   height: 160px;
+   background-color: #000000;
+   position: relative;
+   left:-60px;
+}
+.center .center .left .button1,.button2{
+	width: 55px;
+	height: 25px;
+	background-color: #31C27C;
+	color:#FFFFFF;
+	position: relative;
+	top:20px;
+	left:-35px;
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+}
+#follow{
+	background-color: #31C27C;
+	border: 0px;
+	color:#FFFFFF;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+.center .center .left .button2{
+	position: relative;
+	top:-5px;
+	left:20px;
+	background-color: #6F6A6A;
+}
+.center .center .left .button1 a,.button2 a{
+    color:#FFFFFF;
+}
+
+.center .center .left .text{
+	position: relative;
+	left:-45px;
+	top:20px;
+}
+.center .center .right .textarea{
+    width: 745px;
+    height: 315px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: -663px;
+    padding:15px;
+}
+.center .center .right hr{
+	width: 740px;
+    height:1px;
+	border:none;
+	border-top:1px solid #DFDFDF;
+	position: relative;
+	left:-649px;
+}
+.center .center .right .between{
+	width: 775px;
+	height: 50px; 	
+	background-color: #FFFFFF;
+	position: relative;
+    left: -663px;
+    top:0px;
+    text-align: center;
+    line-height: 30px;
+}
+.between .between_1{
+    width:55px;
+    height: 30px;
+    color: #31C27C;    
+    position: relative;
+    top:10px;
+    left:605px;
+    cursor: pointer;
+}
+.between .between_2{
+	width:80px;
+	background-color: #31C27C;
+	color: #FFFFFF;
+    position: relative;
+    top:-20px;
+    left: 675px;
+    cursor: pointer;
+}
+.center .center .right ul{
+    position: relative;
+    top:-195px;
+    left:-649px;
+}
+.center .center .right li{
+	list-style: none;
+}
+ .center .center .right .answer{
+	width:740px;
+	height: 165px;
+	background-color: #F6F5F4;	
+} 
+ .center .center .right .answer_content{
+	width:740px;
+    height: 80px;
+    background-color: #F6F5F4;
+    /* background-color: #000000; */
+}
+.answer_content .img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    left:5px;
+    top:5px;
+    transform: scale(0.2375);
+}
+.answer_content .author{
+    position: relative;
+    left:65px;
+    top:-20px;
+    font-size: 14px;
+    color: #31C27C;
+}
+.answer_content .content{
+    position: relative;
+    left:125px;
+    top:-39px;
+    font-size: 14px;
+}
+.answer_content .time{
+    position: relative;
+    left:65px;
+    top:-20px;
+    font-size: 12px;
+    color: #757575;
+}
+.answer_content .a_c_answer{
+    position: relative;
+    left:685px;
+    top:-35px;
+    font-size: 12px;
+    color: #31C27C;
+}
+.center .center .right .answer_content hr{
+	width: 700px;
+    height:1px;
+	border:none;
+	border-top:1px solid #DFDFDF;
+	position: relative;
+	left:20px;
+	top:-28px;
+} 
+#text1,#text2{
+	width: 710px;
+	height: 100px;
+	position: relative;
+	left: 15px;
+	top:15px;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size: 15px;
+}
+#button1,#button2{
+	width: 80px;
+	background-color: #31C27C;
+	border: 0px;
+	color:#FFFFFF;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size: 18px;
+	padding: 2px;
+	position: relative;
+	top:20px;
+	left:650px;
+}
+.talk_details .foot{
+	height: 285px;
+	background-color: #F6F5F4;
+}
+.foot .left_text{
+   position: relative;
+   left:35px;
+   top:15px;
+} 
+.foot .left_touxiang{
+   width: 160px;
+   height: 160px;
+   background-color: #000000;
+   position: relative;
+   left:35px;
+   top:25px;
+} 
+.foot .right_text{
+   width:650px;
+   height: 160px;
+  /*  border: 1px solid #9A9595; */
+   position: relative;
+   left:220px;
+   top:-135px;
+} 
+#text2{
+	width: 710px;
+	height: 140px;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size: 15px;
+	position: relative;
+	top:0px;
+	left:0px;
+	padding: 10px;
+}

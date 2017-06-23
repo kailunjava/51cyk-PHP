@@ -1,0 +1,305 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.culture {
+    width: 1226px;
+    height: 650px;
+    margin-bottom: 50px;
+}
+
+.culture_left .culture_left_1 {
+    width: 265px;
+    height: 495px;
+    /* background-color: #91C6F9; */
+    position: absolute;
+    top: 100px;
+    left: 85px;
+    transition: all 1.5s;
+    border: 1px solid #91C6F9;
+}
+
+.culture_left .culture_left_1:hover,
+.culture_left_2:hover,
+.culture_left_3:hover {
+    transform: rotateY(180deg);
+}
+
+.culture_left .culture_left_1 .front,
+.culture_left_2 .front,
+.culture_left_3 .front {
+    z-index: 3;
+}
+
+.culture_left .culture_left_1 .back,
+.culture_left_2 .back,
+.culture_left_3 .back {
+    transform: scaleX(0);
+}
+
+.culture_left .culture_left_1:hover .front,
+.culture_left_2:hover .front,
+.culture_left_3:hover .front {
+    transform: scaleX(0);
+}
+
+.culture_left .culture_left_1:hover .back,
+.culture_left .culture_left_2:hover .back,
+.culture_left .culture_left_3:hover .back {
+    transform: scaleX(-1);
+    z-index: 3;
+    position: relative;
+    top: -435px;
+}
+
+.culture_left .culture_left_1 .front .top,
+.back .top {
+    background-color: #91C6F9;
+    height: 300px;
+}
+
+.culture_left .culture_left_2 .front .top,
+.culture_left .culture_left_2 .back .top {
+    background-color: #74D290;
+    height: 300px;
+}
+
+.culture_left .culture_left_3 .front .top,
+.culture_left .culture_left_3 .back .top {
+    background-color: #74C0F2;
+    height: 300px;
+}
+
+.culture_left .culture_left_1 .front .top .title,
+.culture_left_2 .front .top .title,
+.culture_left_3 .front .top .title {
+    font-family: simhei;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+
+.culture_left .culture_left_1 .front .top .text,
+.culture_left_2 .front .top .text,
+.culture_left_3 .front .top .text {
+    font-family: simhei;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.culture_left .culture_left_1 .front .top .foot,
+.culture_left_2 .front .top .foot,
+.culture_left_3 .front .top .foot {
+    font-family: simhei;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.culture_left .culture_left_1 .front .buttom,
+.back .buttom,
+.culture_left_2 .front .buttom,
+.back .buttom,
+.culture_left_3 .front .buttom,
+.back .buttom {
+    position: relative;
+    top: 26px;
+    left: 73px;
+}
+
+.culture_left .culture_left_1 .front .buttom .text,
+.back .buttom .text,
+.culture_left_2 .front .buttom .text,
+.back .buttom .text,
+.culture_left_3 .front .buttom .text,
+.back .buttom .text {
+    font-family: simhei;
+    color: #9FA0A0;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.culture_left .culture_left_1 .back .top .title,
+.culture_left_2 .back .top .title,
+.culture_left_3 .back .top .title {
+    height: 30px;
+    width: 148px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #739EC7;
+    font-family: simhei;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.culture_left .culture_left_2 .back .top .title {
+    background-color: #66B87E;
+}
+
+.culture_left .culture_left_3 .back .top .title {
+    background-color: #66A9D5;
+}
+
+.culture_left .culture_left_1 .back .top .text .text_1,
+.text_2,
+.text_3,
+.culture_left_2 .back .top .text .text_1,
+.text_2,
+.text_3,
+.culture_left_3 .back .top .text .text_1,
+.text_2,
+.text_3 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #CFD6DD;
+    position: relative;
+    margin: 18px;
+    left: 12px;
+    font-family: Microsoft Yahei;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 60px;
+}
+
+.culture_left .culture_left_1 .back .top .text .text_4,
+.text_5,
+.text_6,
+.culture_left_2 .back .top .text .text_4,
+.text_5,
+.text_6,
+.culture_left_3 .back .top .text .text_4,
+.text_5,
+.text_6 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #CFD6DD;
+    position: relative;
+    margin: 18px;
+    top: -234px;
+    left: 85px;
+    font-family: Microsoft Yahei;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 60px;
+}
+
+.culture_left .culture_left_1 .back .top .text .text_7,
+.text_8,
+.text_9,
+.culture_left_2 .back .top .text .text_7,
+.text_8,
+.text_9,
+.culture_left_3 .back .top .text .text_7,
+.text_8,
+.text_9 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #CFD6DD;
+    position: relative;
+    margin: 18px;
+    top: -468px;
+    left: 160px;
+    font-family: Microsoft Yahei;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 60px;
+}
+
+.culture_left .culture_left_2 {
+    width: 265px;
+    height: 495px;
+    /* background-color: #74D290; */
+    position: absolute;
+    top: 100px;
+    left: 370px;
+    transition: all 1.5s;
+    border: 1px solid #74D290;
+}
+
+.culture_left .culture_left_3 {
+    width: 265px;
+    height: 495px;
+    /* background-color: #74C0F2; */
+    position: absolute;
+    top: 100px;
+    left: 655px;
+    transition: all 1.5s;
+    border: 1px solid #74C0F2;
+}
+
+.culture_right {
+    width: 300px;
+    height: 495px;
+    position: absolute;
+    left: 962px;
+    top: 100px;
+}
+
+.culture_right .top {
+    height: 290px;
+    /* background-color: #545444; */
+}
+
+.culture_right .top .title {
+    font-family: simhei;
+    font-size: 25px;
+}
+
+.culture_right .top .text {
+    font-family: simhei;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.culture_right .buttom {
+    height: 205px;
+    font-family: simhei;
+    font-size: 25px;
+    padding-top: 20px;
+    position: absolute;
+    top:0px;
+    left: 100px;
+    /* background-color: #854541; */
+}
+
+.culture_right .buttom .add {
+    width: 155px;
+    height: 45px;
+    background-color: #31C27C;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    font-family: simhei;
+    color:#FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.culture_right .buttom .edit {
+    width: 145px;
+    height: 45px;
+    background-color: #31C27C;
+    position: relative;
+    top: 35px;
+    border-radius: 5px;
+    font-family: simhei;
+    color:#FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+}

@@ -1,0 +1,67 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact {
+    min-width: 1200px;
+    min-height: 1100px;
+   /*  background-color: #f5f5f5; */
+   margin-bottom: 50px;
+}
+
+.contact_text {
+    width: 1226px;
+    height: 700px;
+    background-color: #87CEFA;
+    
+    border: 0px;
+    margin-left: 62px;
+    border-radius: 10px;
+}
+
+.contact_text h1 {
+    font-size: 38px;
+    font-family: "楷体";
+    color: #333333;
+    padding-left: 20px;
+    padding-top: 20px;
+    transition: all 5s;
+}
+
+.contact_text h1:hover {
+    padding-left: 500px;
+}
+
+.contact_text p {
+    font-family: simhei;
+    font-size: 20px;
+    color: #333333;
+    padding: 20px;
+}
+.contact ul {
+    width: 1266px;
+    height: 100px;
+    
+    padding-left: 62px;
+    padding-top: 25px;
+}
+
+.contact li {
+    list-style: none;
+    width: 392px;
+    height: 100px;
+    margin-right: 25px;
+    float: left;
+    font-family: STHupo;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 100px;
+    transition: all 1s;
+}
+
+.contact li:hover {
+    transform: rotate(360deg);  
+
+}

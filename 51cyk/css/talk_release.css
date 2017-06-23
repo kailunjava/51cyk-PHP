@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.talk_release_all{
+	background-color: rgba(49,194,124,0.7);
+}
+.talk_release{
+	width: 988px;
+    height: 850px;
+    /* border: 1px solid #31C27C; */
+   /*  background-color: #000000; */
+    margin : 0 auto; 
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size: 20px;
+    padding-top:25px; 
+    padding-bottom: 55px;
+    color: #FFFFFF;
+}
+.talk_release a{
+	 color: #FFFFFF;
+}
+.talk_release a:hover{
+	 color: #000000;
+}
+body hr{
+	border: 1px solid #31C27C;
+}
+.main{
+    height: 750px;
+    margin-top: 25px;
+    background-color: #FFFFFF;
+}
+.main .title{
+	height: 130px;
+}
+.main .title .title_1{
+    position: relative;
+    top:20px;
+    left: 0px;
+    font-size: 22px;
+    color: #000000;
+}
+.main .title .title_2{
+    width: 640px;
+    height: 45px;
+    position: relative;
+    top:35px;
+    left: 0px;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+    padding-left: 15px;
+    border: 1px solid #DFDFDF;
+}
+.main .text .text_1{
+	position: relative;
+	top:0px;
+	left: 0px;
+	margin-bottom: 20px;
+	font-size: 22px;
+	color: #000000;
+}
+.main .text .text_2{
+	width: 880px;
+	height: 420px;
+	position: relative;
+	top:100px;
+	left: 200px;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size: 18px;
+	padding: 15px;
+	border: 1px solid #DFDFDF;
+}
+#button_release{
+	width: 150px;
+	height: 45px;
+	position: relative;
+	top:30px;
+	left: 720px;
+	background-color:#31C27C; 
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	border: 1px solid #31C27C;
+
+}

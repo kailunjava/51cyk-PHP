@@ -1,0 +1,320 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body hr{
+	border: 1px solid #31C27C;
+
+}
+.food{
+	width: 1226px;
+	height: 850px;
+	margin: 0 auto;
+	position: relative;
+	top:-5px;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+.food .index{
+	margin-bottom: 25px;
+}
+.food .index a:hover{
+  color:#31C27C;
+}
+.food .top{
+	width: 1226px;
+	height: 370px;
+	/* border: 1px solid #31C27C; */
+}
+.food .top .left_img{
+    float: left;
+    width: 680px;
+}
+    #div1{
+        width: 50px;
+        height: 24px;
+        border-radius: 12px;
+        position: relative;
+        top:10px;
+        left: 540px;
+        z-index: 2;
+
+    }
+    #div2{
+        width: 24px;
+        height: 24px;
+        border-radius: 12px;
+        position: absolute;
+        background: white;
+        font-family: simhei;
+        text-align: center;
+        line-height: 24px;
+        cursor: pointer;
+       /*  box-shadow: 0px 1px 1px rgba(0,0,0,0.4); */
+    }
+    .open1{
+       background: rgba(0,184,0,0.8);
+   }
+   .open2{
+       top: 1px;
+       right: 1px;
+       color: #31C27C;
+   } 
+    .close1{
+        background: rgba(255,255,255,0.4);
+        /* border:1px solid rgba(0,0,0,0.15); */
+        /* border-left: transparent; */
+
+    }
+    .close2{
+        /* border:1px solid rgba(0,0,0,0.1); */
+          color: #8B908E;
+    }
+.send{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.5);
+  
+  color: #31C27C;
+  position: absolute;
+  top:325px;
+  left: 555px;
+  z-index: 2;
+  line-height: 35px;
+  text-align: center;
+  border: 1px solid #31C27C;
+  cursor: pointer;
+}
+.food .top .img_danmu{
+  height:260px;
+  width:606px;
+  overflow:hidden;
+  position:relative;
+  top:-364px;
+}
+.food .top .img_danmu div{
+  height:20px;
+  width:100px;
+  position:absolute; 
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  font-size: 20px;
+
+  line-height: 20px;
+}
+.food .top .btn{
+  position: absolute;
+  top:400px;
+}
+#text_danmu{
+  height: 40px;
+  width: 300px;
+  position: relative;
+  top:-26px;
+  left:220px;
+  font-family: simhei;
+  color: #FFFFFF;
+  font-size: 20px;
+  border-radius:5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #FFFFFF;
+  padding-left: 15px;
+}
+#text_danmu:focus {
+    outline: none;
+    border: 1px solid #31C27C;
+    border-radius: 5px;
+}
+#submit_1{
+  border-radius: 5px;
+  width: 60px;
+  height: 40px;
+  border: 0px;
+  background-color: #31C27C;
+  /* background-color: rgba(255,255,255, 1); */
+  font-family: simhei;
+  color: #FFFFFF;
+  font-size: 20px;
+  position: absolute;
+  top:-25px;
+  left: 540px;
+  border: 2px solid #31C27C;
+  text-align: center;
+}
+#submit:focus{
+  outline: none;
+  border: 1px solid #31C27C;
+  border-radius: 5px;
+}
+.food .top .right_text{
+   float: right;
+   width: 530px;
+}
+.food .top .right_text .title{
+   font-size: 30px;
+   position: absolute;
+   top:60px;
+   left:680px;
+}
+.food .top .right_text hr{
+	position: relative;
+	top:-580px;
+	left: -15px;
+	height:1px;
+	border:none;
+	border-top:1px solid #DFDFDF;
+}
+.food .top .right_text .text{
+   position: absolute;
+   top:116px;
+   left:680px;
+   font-size: 18px;
+    color: #757575;
+}
+.food .top .right_text .text .text_1 .text_1_1,.text_2 .text_2_1,
+.text_3 .text_3_1{
+    margin-bottom: 14px;
+}
+.food .top .right_text .text .text_1 li ,.text_2 li,.text_3 li{
+    list-style: none; 
+    /* color: #F5F5F5; */
+    color:#31C27C;
+    width: 25px;
+    height: 25px;
+    float: left;
+    text-align: center;
+    border: 1px solid #31C27C;
+    margin-right:5px; 
+    margin-bottom:5px; 
+}
+.text_3 li{
+	color:#8F8E8E;
+	border: 1px solid #8F8E8E;
+}
+.food .top .right_text .text .text_2{
+	position: absolute;
+	top:142px;
+}
+.food .top .right_text .text .text_3{
+	position: absolute;
+	top:220px;
+}
+
+
+.food .center{
+	width: 1226px;
+	height: 300px;
+	 /* border: 1px solid #31C27C; */
+}
+.food hr{
+	position: relative;
+	top:0px;
+	left: 0px;
+	height:1px;
+	border:none;
+	border-top:1px solid #DFDFDF;
+}
+.food .bottom{
+	width: 1226px;
+	height: 300px;
+	/*  border: 1px solid #31C27C;  */
+}
+.food .bottom .left{
+    width: 450px;
+    height: 300px;
+   /* border: 1px solid #31C27C;  */
+   float: left;
+   position: absolute;
+   top:790px;
+}
+.food .bottom .left .left_top{
+   width: 250px;
+   height: 35px;
+   margin-top: 50px;
+   margin-bottom: 10px;
+}
+.food .bottom .left .left_top input{
+   width: 180px;
+   height: 31px;
+   font-size: 20px;
+   font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+.food .bottom .left .left_top .text{
+   width: 80px;
+   height: 35px;
+   background-color: #31C27C;
+   color: #FFFFFF;
+   font-size: 20px;
+   position: relative;
+   top:-35px;
+   left: 184px;
+   text-align: center;
+   line-height: 35px;
+}
+.food .bottom .left .left_bottom {
+
+}
+.food .bottom .left .left_bottom li ,.right li{
+    list-style: none; 
+    /* color: #F5F5F5; */
+    color:#FFFFFF;
+    font-size: 20px;
+    width: 100px;
+    height: 35px;
+    float: left;
+    text-align: center;
+    /* border: 1px solid #31C27C; */
+    background-color: #31C27C;
+    margin-right:10px; 
+    margin-bottom:10px;
+    line-height: 35px; 
+}
+
+.food .bottom .right{
+    width: 500px;
+    height: 300px;
+    /* border: 1px solid #31C27C;  */
+    position: absolute;
+    top:940px;
+    left: 640px;
+}
+.food .bottom .right .title{
+	font-size: 20px;
+	padding-top: 40px;
+}
+.food .bottom .right ul{
+	width: 250px;
+	position: relative;
+	top:0px;
+	left:120px;
+}
+/* box-shadow:10px 10px 5px 10px #ccc inset；
+
+第1个值：水平阴影的长度，此值可以为负值。
+
+第2个值：垂直阴影的长度，此值可以为负值。
+
+第3个值：阴影的模糊值，此值不允许为负值。
+
+第4个值：水平阴影的外延值，此值可以为负值。
+
+第5个值：阴影的颜色。
+
+第6个值：此值为空，默认为外阴影，设置成inset为内阴影。 */
+.food .bottom .right li{
+    width: 95px;
+    height: 35px;
+     background-color: #31C27C;
+     color:#FFFFFF;
+     text-align: center;
+     line-height: 35px;
+     position: relative;
+     top:20px;
+     left: 20px;
+     margin-right:20px; 
+    margin-bottom:20px;
+     -webkit-box-shadow: 2px 2px 10px #909090; /*chrome*/
+     /* box-shadow:80px 35px 5px #31C27C inset; */
+     /*  transform: rotateX(40deg); */
+      transform:skewX(6deg); 
+    
+}
